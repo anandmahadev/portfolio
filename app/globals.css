@@ -125,6 +125,31 @@
 }
 
 /* Adding marquee animation for infinite scrolling logo stripe */
+html {
+  scroll-behavior: smooth;
+}
+
+.pm-glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pm-gradient-border {
+  position: relative;
+  background: white;
+  border-radius: inherit;
+}
+
+.pm-gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  z-index: -1;
+  background: linear-gradient(to right, #6366f1, #fdb927, #ff6b7a);
+  border-radius: inherit;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0);
