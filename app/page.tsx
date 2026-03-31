@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/hero-section"
 import { LogoMarquee } from "@/components/logo-marquee"
 import { ServicesSection } from "@/components/services-section"
 import { AboutSection } from "@/components/about-section"
+import { TechStackSection } from "@/components/tech-stack-section"
 import { ExperienceSection } from "@/components/experience-section"
 import { EducationSection } from "@/components/education-section"
 import { CaseStudiesSection } from "@/components/case-studies-section"
@@ -19,6 +20,7 @@ export default function Home() {
       <LogoMarquee />
       <ServicesSection />
       <AboutSection />
+      <TechStackSection />
       <ExperienceSection />
       <EducationSection />
       <CaseStudiesSection />
