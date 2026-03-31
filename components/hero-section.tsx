@@ -7,13 +7,20 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h1 className="text-[42px] leading-[50px] md:text-[72px] font-bold md:leading-[85px]">
-            I'm <span className="bg-[#FF6B7A] text-white px-3 py-1 inline-block">Anand Mahadev</span>, a Product Manager
-            from <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">Mysore, India</span>
+            I'm <span className="bg-[#FF6B7A] text-white px-3 py-1 inline-block">Anand Mahadev</span>, a Technical Product Lead
+            and <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">CardioNerve Founder</span>
           </h1>
 
+          <div className="inline-flex items-center gap-3 bg-[#FDB927]/10 border-2 border-[#FDB927] rounded-full px-5 py-2 mb-4">
+            <span className="w-3 h-3 bg-[#FDB927] rounded-full animate-pulse"></span>
+            <span className="text-[#0B0B0B] font-bold text-sm md:text-base uppercase tracking-wider">
+              Top 74 Finalist @ OpenAI Buildathon 2026 (75k+ Teams)
+            </span>
+          </div>
+
           <p className="text-[#393939] text-[16px] md:text-[18px] font-medium leading-[28px] md:leading-[30px] max-w-xl">
-            A first-year CSE student passionate about product management, graphic design, and social media marketing. I
-            create impactful digital experiences that connect brands with their audiences.
+            Technical Product Leader specialized in building user-centric AI solutions. Recently recognized as a 
+            <span className="font-bold"> Top 74 Finalist at OpenAI Buildathon 2026</span> for strategic excellence in product vision.
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-7 pt-4">

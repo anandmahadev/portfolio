@@ -5,32 +5,28 @@ import Image from "next/image"
 export function ServicesSection() {
   const services = [
     {
-      title: "Product Management",
-      description:
-        "Strategic product planning, roadmap development, and cross-functional team coordination to deliver user-centric solutions.",
+      title: "Product Strategy",
+      description: "Defining long-term product vision, roadmap planning, and identifying market opportunities to drive growth.",
       image: "/images/product-design.svg",
     },
     {
-      title: "Graphic Design",
-      description:
-        "Creating visually stunning designs including logos, brand identities, marketing materials, and digital assets.",
-      image: "/images/ui-ux-design.svg",
-    },
-    {
-      title: "Social Media Management",
-      description:
-        "Building engaging social media strategies, content creation, and community management to grow your online presence.",
-      image: "/images/web-design.svg",
-    },
-    {
-      title: "UI/UX Design",
-      description: "Designing intuitive user interfaces and experiences that delight users and drive engagement.",
+      title: "User Research",
+      description: "Conducting user interviews, usability testing, and gathering feedback to deeply understand user needs.",
       image: "/images/user-research.svg",
     },
     {
-      title: "Content Creation",
-      description:
-        "Crafting compelling visual and written content that tells your brand story and resonates with your audience.",
+      title: "Data Analysis",
+      description: "Leveraging tools like Mixpanel and SQL to derive actionable insights and inform data-driven decisions.",
+      image: "/images/ui-ux-design.svg",
+    },
+    {
+      title: "Stakeholder Alignment",
+      description: "Collaborating with Engineering, Design, and Sales teams to ensure seamless cross-functional delivery.",
+      image: "/images/web-design.svg",
+    },
+    {
+      title: "Product Execution",
+      description: "Writing PRDs, managing backlogs, and leading agile ceremonies to deliver high-quality releases.",
       image: "/images/motion-graphics.svg",
     },
   ]
@@ -41,11 +37,10 @@ export function ServicesSection() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-4xl md:text-[52px] md:leading-[60px] font-bold mb-4">
-              My broad <span className="bg-[#FF4A60] text-white px-3 py-1 inline-block">set of services</span>
+              My core <span className="bg-[#FF4A60] text-white px-3 py-1 inline-block">Product Competencies</span>
             </h2>
             <p className="text-[#393939] text-base md:text-lg font-medium leading-relaxed md:leading-[30px] max-w-2xl mx-auto">
-              From product strategy to visual design, I offer a comprehensive range of services to help brands grow and
-              connect with their audiences effectively.
+              I specialize in bridging the gap between user needs and business objectives through a structured and data-informed approach.
             </p>
           </div>
 
