@@ -59,7 +59,7 @@ export function ExperienceSection() {
   return (
     <section className="bg-black py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+        <div className="mx-auto grid md:grid-cols-2 gap-12 items-start">
           <div className="text-white pt-0 md:pt-12 md:sticky md:top-12 self-start">
             <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 md:mb-8 leading-[1.3]">
               Take a look at my <span className="bg-[#6366F1] text-white px-3 py-1 inline-block">past experience</span>

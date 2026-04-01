@@ -21,7 +21,7 @@ export function AwardsSection() {
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="mx-auto">
           <h2 className="text-4xl md:text-[52px] md:leading-[60px] font-bold mb-16 underline decoration-[#FF4A60] decoration-8">
             Awards & <span className="text-[#FF4A60]">Recognitions</span>
           </h2>
