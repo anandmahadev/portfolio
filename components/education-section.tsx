@@ -13,7 +13,7 @@ export function EducationSection() {
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-6">
             <h2 className="text-4xl md:text-[52px] md:leading-[60px] font-bold">
               My <span className="bg-[#FDB927] text-white px-3 py-1 inline-block">Education</span>

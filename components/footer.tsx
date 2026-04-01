@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="bg-black text-white py-12 md:py-16">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="mx-auto">
           <div className="mb-12 md:mb-16 relative">
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
               <div className="w-24 h-24 md:w-36 md:h-36 rounded-full flex items-center justify-center flex-shrink-0 relative">

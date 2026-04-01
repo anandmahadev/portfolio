@@ -22,7 +22,7 @@ export function TechStackSection() {
   return (
     <section className="bg-black py-16 md:py-24 text-white">
       <div className="container mx-auto px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="mx-auto">
           <div className="mb-12">
              <h2 className="text-4xl md:text-5xl font-bold bg-[#2F81F7] inline-block px-4 py-2 transform -rotate-1">
                 Tech Stack & Tools
